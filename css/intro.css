@@ -1,0 +1,115 @@
+/* Begin of the header */
+.nav_list{
+    display: inline-block;
+    padding-left: 250px;
+}
+
+ul{
+    list-style: none;
+    float: left;
+
+}
+.nav_list .list li{
+    float: left;
+    padding: 40px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.container{
+    padding-top: 20px;
+    width: 1200px;
+    margin: auto;
+}
+.nav_list .list .hov:hover{
+    color: red;
+    border-bottom: 2px solid red;
+}
+.nav_list .list li:hover{
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+/* end of header*/
+
+
+
+
+.background{
+    background: url("../images/back.jpg");
+    height: 900px;
+    width: auto;
+    border:2px solid white;
+    border-radius: 25px;
+}
+
+.container2{
+    display: flex;
+    padding-top: 40px;
+    width: 1200px;
+    margin: auto;
+}
+
+.video1{
+    margin-right: 50px;
+    margin-left: 0px;
+}
+
+.video2{
+    margin-right: 150px;
+    padding-right: 100px;
+}
+.info{
+    display: inline-block;
+    border: 3px solid gray;
+    border-radius: 20px;
+    margin: 20px;
+    padding-top: 20px ;
+
+}
+
+.info h3{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+.info p{
+    font-size: 28px;
+    padding: 15px;
+
+}
+
+/* end of main*/
+
+
+
+/* Begin of the footer*/
+.links{
+    display:inline-block;
+    margin-left: 200px;
+}
+
+.links li{
+    float: left;
+    padding: 50px;
+
+}
+
+.links ul{
+    margin-left: 250px;
+}
+footer{
+    margin-top: 50px;
+
+}
+
+/* End of footer */
+
+/* begin of page about*/

@@ -1,0 +1,107 @@
+/* Begin of the header */
+.nav_list{
+    display: inline-block;
+    padding-left: 250px;
+}
+
+ul{
+    list-style: none;
+    float: left;
+
+}
+.nav_list .list li{
+    float: left;
+    padding: 40px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.container{
+    padding-top: 20px;
+    width: 1200px;
+    margin: auto;
+}
+.nav_list .list .hov:hover{
+    color: red;
+    border-bottom: 2px solid red;
+}
+.nav_list .list li:hover{
+    color: red;
+    border-bottom: 2px solid red;
+}
+header{
+  margin-bottom: -50px;
+  margin-top: -20px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+/* end of header*/
+
+
+
+body{
+  background: url("https://wallpaperaccess.com/full/5962313.jpg");
+  background-repeat:round;
+  background-attachment: scroll;
+}
+
+table{
+  width: 80%;
+  margin:10%;
+  font-size: 120%;
+  border: 3px solid black;
+  border-collapse: collapse;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+th,tr,td{
+  text-align: center;
+  padding: 10px;
+  margin:10%;
+  font-size: 120%;
+  border: 3px solid black;
+  border-collapse: collapse;
+  color: gold;
+}
+.mid{
+  width: 10%;
+  color: white;
+}
+h2{
+  text-align: center;
+  color: #db0d0d;
+  margin-bottom: 3%;
+  font-size: 200%;
+}
+
+td > a{
+  text-decoration: none;
+  color: gold;
+}
+
+
+
+/* Begin of the footer*/
+.links{
+    display:inline-block;
+    margin-left: 200px;
+}
+
+.links li{
+    float: left;
+    padding: 50px;
+
+}
+
+.links ul{
+    margin-left: 250px;
+}
+footer{
+    margin-top: 50px;
+
+}
+
+/* End of footer */

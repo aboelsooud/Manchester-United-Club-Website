@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src = "js/formv.js"></script>
+  </head>
+  <body>
+
+    <header>
+        <div class="container">
+
+                <img src="images/manu.png" alt="man" width="100px">
+
+         <div class="nav_list">
+            <ul class="list">
+                <li class = "hov"> <a href="intro_page.html">Home</a></li>
+                <li><a href="form.html">Sign up</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="matches.html">Matches</a></li>
+            </ul>
+        </div>
+
+        </div>
+    </header>
+    <form id = "form">
+      <h1>Welcome to be a part of our family</h1><br>
+      <div class="control">
+        <label for="fname">First Name</label>
+        <input type="text" id = "fname" placeholder="Enter your first name" required><br>
+			  <small>Error message</small>
+      </div>
+
+
+      <div class="control">
+        <label for="lname">Last Name</label>
+        <input type="text" id = "lname" placeholder="Enter your last name" required><br>
+        <small >Error message</small>
+      </div>
+
+
+      <div class="control">
+        <label for="mail">E-mail</label>
+        <input type="text" id = "mail" placeholder="Example@gmail.com" required><br>
+        <small>Error message</small>
+      </div>
+
+
+      <div class = "control">
+        <label for="pass">Password</label>
+        <input type="password" id = "pass" placeholder="Enter your password" required><br>
+        <small>Error message</small>
+      </div>
+
+
+      <div class="">
+        <label for="gen">Gender</label>
+        <input type="radio" id="gen" name="gender" class="gender" checked><span> Male </span><br>
+        <label id= "l"></label>
+        <input type="radio" id="gen" name="gender" class="gender"><span> Female </span><br>
+
+        <label for="bd">Birthday</label>
+        <input type="date" id = "bd"  value="1999-12-12" min = "1920-1-1" max = '2007-12-31' required><br>
+
+        <input type="reset" class="end"><br>
+        <input type="submit" class="end" value="Register">
+      </div>
+    </form>
+
+
+    <footer>
+        <div class = "links">
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/manchesterunited/" target="_blank">
+                        <img src="images/Facebook.png" alt="" width="75px">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/manchesterunited/?hl=en" target="_blank">
+                        <img src="images/Instagram.png" alt="" width="75px" >
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.premierleague.com/clubs/12/Manchester-United/overview" target="_blank">
+                        <img src="images/pl.png" width="100px">
+                </li>
+                <li>
+                    <a href="https://www.uefa.com/uefachampionsleague/clubs/52682--man-united/" target="_blank">
+                        <img src="images/UEFA_Champions_League.png" alt="" width="100px" >
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/ManUtd?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+                        <img src="images/tlogo.png" alt="" width="100px">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+  </body>
+</html>
